@@ -59,7 +59,7 @@
             BlueprintIdentifier = "CE73F7B91AAB4AE0005AC895"
             BuildableName = "RSS Raider Denemesi Sefa Ayc&#x327;ic&#x327;ek.app"
             BlueprintName = "RSS Raider Denemesi Sefa Ayc&#x327;ic&#x327;ek"
-            ReferencedContainer = "container:RSS Raider Denemesi Sefa Ayc&#x327;ic&#x327;ek.xcodeproj">
+            ReferencedContainer = "container:Haberturk Rss.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -79,7 +79,7 @@
             BlueprintIdentifier = "CE73F7B91AAB4AE0005AC895"
             BuildableName = "RSS Raider Denemesi Sefa Ayc&#x327;ic&#x327;ek.app"
             BlueprintName = "RSS Raider Denemesi Sefa Ayc&#x327;ic&#x327;ek"
-            ReferencedContainer = "container:RSS Raider Denemesi Sefa Ayc&#x327;ic&#x327;ek.xcodeproj">
+            ReferencedContainer = "container:Haberturk Rss.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>

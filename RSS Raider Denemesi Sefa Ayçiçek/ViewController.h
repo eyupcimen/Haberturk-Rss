@@ -7,8 +7,21 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Haber.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController  <NSXMLParserDelegate,UITableViewDataSource,UITableViewDelegate>
+{
+    
+    NSXMLParser *parser;
+    NSMutableArray *haberlistesi;
+    Haber *haber;
+    
+    NSString *currentElement;
+    
+}
+@property (strong, nonatomic) IBOutlet UITableView *tableViewMy;
+
+- (IBAction)butonPressed:(UIButton *)sender;
 
 
 @end

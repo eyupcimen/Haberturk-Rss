@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE1D62D01AAC8BE9001F4F96 /* CellVCTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1D62CF1AAC8BE9001F4F96 /* CellVCTableViewCell.m */; };
 		CE73F7C01AAB4AE0005AC895 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE73F7BF1AAB4AE0005AC895 /* main.m */; };
 		CE73F7C31AAB4AE0005AC895 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE73F7C21AAB4AE0005AC895 /* AppDelegate.m */; };
 		CE73F7C61AAB4AE0005AC895 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE73F7C51AAB4AE0005AC895 /* ViewController.m */; };
@@ -14,6 +15,7 @@
 		CE73F7CB1AAB4AE0005AC895 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE73F7CA1AAB4AE0005AC895 /* Images.xcassets */; };
 		CE73F7CE1AAB4AE0005AC895 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE73F7CC1AAB4AE0005AC895 /* LaunchScreen.xib */; };
 		CE73F7DA1AAB4AE0005AC895 /* RSS_Raider_Denemesi_Sefa_Ayc_ic_ekTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE73F7D91AAB4AE0005AC895 /* RSS_Raider_Denemesi_Sefa_Ayc_ic_ekTests.m */; };
+		CE92E6761AABB1DF004AFE8F /* Haber.m in Sources */ = {isa = PBXBuildFile; fileRef = CE92E6751AABB1DF004AFE8F /* Haber.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE1D62CE1AAC8BE9001F4F96 /* CellVCTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellVCTableViewCell.h; sourceTree = "<group>"; };
+		CE1D62CF1AAC8BE9001F4F96 /* CellVCTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellVCTableViewCell.m; sourceTree = "<group>"; };
 		CE73F7BA1AAB4AE0005AC895 /* RSS Raider Denemesi Sefa Ayçiçek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RSS Raider Denemesi Sefa Ayçiçek.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE73F7BE1AAB4AE0005AC895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE73F7BF1AAB4AE0005AC895 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +44,8 @@
 		CE73F7D31AAB4AE0005AC895 /* RSS Raider Denemesi Sefa AyçiçekTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RSS Raider Denemesi Sefa AyçiçekTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE73F7D81AAB4AE0005AC895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE73F7D91AAB4AE0005AC895 /* RSS_Raider_Denemesi_Sefa_Ayc_ic_ekTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSS_Raider_Denemesi_Sefa_Ayc_ic_ekTests.m; sourceTree = "<group>"; };
+		CE92E6741AABB1DF004AFE8F /* Haber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Haber.h; sourceTree = "<group>"; };
+		CE92E6751AABB1DF004AFE8F /* Haber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Haber.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,10 @@
 		CE73F7B11AAB4AE0005AC895 = {
 			isa = PBXGroup;
 			children = (
+				CE1D62CE1AAC8BE9001F4F96 /* CellVCTableViewCell.h */,
+				CE1D62CF1AAC8BE9001F4F96 /* CellVCTableViewCell.m */,
+				CE92E6741AABB1DF004AFE8F /* Haber.h */,
+				CE92E6751AABB1DF004AFE8F /* Haber.m */,
 				CE73F7BC1AAB4AE0005AC895 /* RSS Raider Denemesi Sefa Ayçiçek */,
 				CE73F7D61AAB4AE0005AC895 /* RSS Raider Denemesi Sefa AyçiçekTests */,
 				CE73F7BB1AAB4AE0005AC895 /* Products */,
@@ -175,7 +185,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CE73F7B51AAB4AE0005AC895 /* Build configuration list for PBXProject "RSS Raider Denemesi Sefa Ayçiçek" */;
+			buildConfigurationList = CE73F7B51AAB4AE0005AC895 /* Build configuration list for PBXProject "Haberturk Rss" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -219,6 +229,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE92E6761AABB1DF004AFE8F /* Haber.m in Sources */,
+				CE1D62D01AAC8BE9001F4F96 /* CellVCTableViewCell.m in Sources */,
 				CE73F7C61AAB4AE0005AC895 /* ViewController.m in Sources */,
 				CE73F7C31AAB4AE0005AC895 /* AppDelegate.m in Sources */,
 				CE73F7C01AAB4AE0005AC895 /* main.m in Sources */,
@@ -396,7 +408,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CE73F7B51AAB4AE0005AC895 /* Build configuration list for PBXProject "RSS Raider Denemesi Sefa Ayçiçek" */ = {
+		CE73F7B51AAB4AE0005AC895 /* Build configuration list for PBXProject "Haberturk Rss" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE73F7DB1AAB4AE0005AC895 /* Debug */,
@@ -412,6 +424,7 @@
 				CE73F7DF1AAB4AE0005AC895 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE73F7E01AAB4AE0005AC895 /* Build configuration list for PBXNativeTarget "RSS Raider Denemesi Sefa AyçiçekTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +433,7 @@
 				CE73F7E21AAB4AE0005AC895 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
